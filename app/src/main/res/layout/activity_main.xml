@@ -30,6 +30,12 @@
             android:text="@string/Fahrenheit" />
     </RadioGroup>
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        app:srcCompat="@drawable/thermometer" />
+
     <TextView
         android:id="@+id/tvInstructions"
         android:layout_width="match_parent"
@@ -39,7 +45,8 @@
         android:layout_marginRight="15dp"
         android:text="@string/instructions_Fahrenheit"
         android:textAlignment="center"
-        android:textColor="@color/colorPrimaryText" />
+        android:textColor="@color/colorPrimaryText"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/etChirps"
@@ -71,10 +78,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
         android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
         android:gravity="center_horizontal"
+        android:text="TextView"
         android:textColor="@color/colorPrimaryText"
-        android:text="TextView" />
+        android:textStyle="bold" />
 
 </LinearLayout>
